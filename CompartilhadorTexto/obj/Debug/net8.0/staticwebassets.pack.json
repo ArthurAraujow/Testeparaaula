@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\admin.html",
+      "PackagePath": "staticwebassets\\admin.html"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\js\\admin.js",
+      "PackagePath": "staticwebassets\\js\\admin.js"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\js\\login.js",
+      "PackagePath": "staticwebassets\\js\\login.js"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\js\\theme.js",
+      "PackagePath": "staticwebassets\\js\\theme.js"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\js\\view.js",
+      "PackagePath": "staticwebassets\\js\\view.js"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\login.html",
+      "PackagePath": "staticwebassets\\login.html"
+    },
+    {
+      "Id": "C:\\Users\\Botada\\Desktop\\site pro professor\\CompartilhadorTexto\\wwwroot\\view.html",
+      "PackagePath": "staticwebassets\\view.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.CompartilhadorTexto.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.CompartilhadorTexto.props",
+      "PackagePath": "build\\CompartilhadorTexto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.CompartilhadorTexto.props",
+      "PackagePath": "buildMultiTargeting\\CompartilhadorTexto.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.CompartilhadorTexto.props",
+      "PackagePath": "buildTransitive\\CompartilhadorTexto.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
