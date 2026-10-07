@@ -1,0 +1,52 @@
+{
+  "manifest_version": 3,
+  "name": "Quick Answer",
+  "version": "1.0.1",
+  "description": "Quick AI answers",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "commands",
+    "scripting",
+    "clipboardRead"
+  ],
+  "host_permissions": [
+    "https://api.openai.com/*",
+    "https://api.groq.com/*",
+    "https://generativelanguage.googleapis.com/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "css": ["content.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "commands": {
+    "trigger-answer": {
+      "suggested_key": {
+        "default": "Alt+Q",
+        "mac": "Alt+Q"
+      },
+      "description": "Send copied text to AI"
+    }
+  }
+}
